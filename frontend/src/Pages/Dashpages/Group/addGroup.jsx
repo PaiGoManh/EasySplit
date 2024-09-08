@@ -5,7 +5,7 @@ const AddGroup = () => {
   const navigate = useNavigate();
   const [groupName, setGroupName] = useState('');
   const [groupDescription, setGroupDescription] = useState('');
-  const [currency, setCurrency] = useState('USD');
+  const [currency, setCurrency] = useState('INR');
   const [members, setMembers] = useState([]);
   const [selectedMember, setSelectedMember] = useState('');
   const [selectedMembersList, setSelectedMembersList] = useState([]);
